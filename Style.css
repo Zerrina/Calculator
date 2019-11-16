@@ -1,0 +1,146 @@
+body
+{
+    background: pink;
+    background: linear-gradient(to left, rgb(255, 87, 115), rgb(114, 62, 255));
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container
+{
+    width: 1000px;
+    height: 100px;
+    /*background-color: rgb(235, 235, 235);*/
+    margin: 60px auto;
+}
+
+.calculator
+{
+    width: 320px;
+    height: 520px;
+    background-color: rgb(235, 235, 235);
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(200, 200, 200), 1px 1px 10px rgb(250, 250, 250);
+}
+
+.display
+{
+    height: 120px;
+}
+
+#result
+{
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+    height: 50px;
+    width: 250px;
+    margin: 15px 13px;
+    color: #919191;
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+}
+
+.keyboard
+{
+    height: 400px;
+    padding: 20px 20px 0 20px;
+}
+
+.row
+{
+    width: 280px;
+    float: left;
+}
+
+input[type=button]
+{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+
+.number
+{
+    background-color: rgb(235, 235, 235);
+}
+
+input[type=button]:active
+{
+    font-size: 13px;
+}
+
+input[type=button]:focus
+{
+    outline: 0;
+}
+
+input[value=C]:nth-child(1)
+{
+    font-size: 20px;
+    background-color: #9477af;
+}
+
+input[value=CE]:nth-child(2)
+{
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+input[value="%"]:nth-child(3)
+{
+    font-size: 20px;
+    background-color:  #20b2aa;
+}
+
+input[value="/"]:nth-child(4)
+{
+    font-size: 20px;
+    background-color: #6fdf65;
+}
+
+input[value="*"]:nth-child(4)
+{
+    font-size: 20px;
+    background-color: #ffd900;
+}
+
+input[value="-"]:nth-child(4)
+{
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+input[value="+"]:nth-child(4)
+{
+    font-size: 20px;
+    background-color: #e44e4e;
+}
+
+input[value="="]:nth-child(4)
+{
+    font-size: 20px;
+    background-color: #ad579b;
+}
+
+input[value="^"]:nth-child(3)
+{
+    font-size: 20px;
+    background-color: #7569bd;
+}
+
+input[value="."]:nth-child(2)
+{
+    font-size: 20px;
+    background-color: #62afa9;
+}
